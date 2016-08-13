@@ -1,0 +1,9 @@
+/**********HTML5LIGHTBOX****************************/
+#html5-watermark {
+    position: absolute !important;
+    top: 15px !important;
+    left: 15px !important;
+    right: auto !important;  
+    bottom: auto !important;
+}
+/**********HTML5LIGHTBOX****************************/
