@@ -1,0 +1,12 @@
+<div class="dl2filesbit" id="{vb:raw file.id}" onmouseover="showTools('{vb:raw file.id}')" onmouseout="hideTools('{vb:raw file.id}')">
+		<a href="downloads.php?{vb:raw session.sessionurl}do=file&amp;id={vb:raw file.id}" title="Открыть страницу файла"><b>{vb:raw file.title}</b></a>
+		<br><br>
+		<div id="dlfile_{vb:raw file.id}">
+			{vb:raw smalldesc}
+		</div>
+		
+		<br><br>
+		<p>Скачать: (<a href="downloads.php?{vb:raw session.sessionurl}do=file&amp;id={vb:raw file.id}&amp;act=down" title="{vb:rawphrase dl2_download} файл: [{vb:raw file.id}]">{vb:raw file.size}</a>)</p>
+		<br>
+		<div class="downloads2tools" id="downloads2tools_{vb:raw file.id}"><vb:if condition="is_member_of($bbuserinfo, 5,6)"><div style="cursor: pointer; padding: 3px;" onclick="quickEditTag('{vb:raw file.id}')"><img src="/images/downloads/edit.svg" border="0" alt="Быстрое редактирование"></vb:if></div><div style="padding: 3px;"><a href="downloads.php?{vb:raw session.sessionurl}do=report&amp;fileid={vb:raw file.id}"><img src="/images/downloads/complain.svg" border="0" alt="Сообщить о проблеме"></a></div></div>
+</div>
