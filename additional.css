@@ -7,3 +7,34 @@
     bottom: auto !important;
 }
 /**********HTML5LIGHTBOX****************************/
+/********** DOWNLOADS ******************************/
+.dl2filesbit {
+    padding: 30px;
+    width: 250px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    margin: 10px;
+    background: #eaeaea;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+    /*overflow: hidden;*/
+    position: relative;
+}
+
+.dl2files {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+.downloads2tools {
+    transition: 0.5s;
+    text-align: center;
+    width: 250px;
+    bottom: 5px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+}
+/********** DOWNLOADS ******************************/
